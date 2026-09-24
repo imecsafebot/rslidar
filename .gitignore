@@ -1,0 +1,36 @@
+# Build directories
+**/build/
+
+# Captured / test data
+rslidar_api/captures/
+people_detection/test_data/
+
+# LiDAR data
+*.pcd
+*.ply
+*.pcap
+*.mcap
+*.bag
+*.db3
+*.bin
+
+# CMake generated files
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/compile_commands.json
+
+# Compiled files
+*.o
+*.a
+*.so
+*.so.*
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
